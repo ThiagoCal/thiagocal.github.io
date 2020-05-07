@@ -1,0 +1,125 @@
+* {
+	margin: 0
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #EBF2FA;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#topo {
+	height: 300px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin-top: 0;
+
+}
+
+#topo {
+	background-image: url(imagens/Madison.png) no-repeat right top;
+}
+
+.logo {
+	width: 204px;
+	height: 250px;
+	background: url(imagens/logo.png) no-repeat center;
+	text-indent: -3000px;
+}
+
+a:link, a:visited {
+	color: #fff;
+	padding: 2px;
+}
+
+a:hover {
+	color: ;
+}
+
+ul {
+	margin-top: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul {
+	background: #0B3974;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+
+#topo ul li{
+	float: left;
+
+}
+
+#topo ul li a{
+	position: center;
+	display: block;
+	font-size: 0.9em;
+	padding: 0.5em 1.5em;
+	line-height: 2em;
+	text-decoration: none;
+	color: #fff;
+	float: left;
+	background: url(imagens/divisao2.png) repeat-y;
+}
+
+ul .primeiro a{
+	background: none;
+}
+
+#conteudo {
+	margin-top: 60px;
+	background:#fff;
+}
+
+#principal {
+	float: left;
+	width: 700px;
+	margin: 0 0 20px 200px
+}
+
+.caixa1 {
+	margin: 10px 0;
+	padding: 5px 0 5px 0;
+	background: #fff;
+	float: left;
+}
+
+.caixas {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.destaque h2 {
+	background: #b10333;
+	font-style: "Tw Cen MT Condensed";
+	text-transform: uppercase;
+
+}
+
+
+h2 {
+	font-size: 3em;
+	color: #285389;
+	padding: 5px;
+}
+
+p {
+	font-size: 1em;
+	color: #285389;
+
+}
